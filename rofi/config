@@ -1,5 +1,5 @@
 rofi.modi: drun,window,ssh
-rofi.font: Google Sans 10
+rofi.font: SF Pro Rounded
 rofi.lines: 12
 rofi.columns: 2
 rofi.width: 18
