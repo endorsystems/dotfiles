@@ -1,0 +1,77 @@
+---
+# Font configuration (changes require restart)
+font:
+  # The size to use.
+  size: 10
+  # The normal (roman) font face to use.
+  normal:
+    #family: Hack
+    family: Noto Sans Mono
+    # Style can be specified to pick a specific face.
+    style: Medium
+
+  # The bold font face
+  bold:
+    #family: Hack
+    family: Noto Sans Mono
+    # Style can be specified to pick a specific face.
+    style: Bold
+
+  # The italic font face
+  italic:
+    #family: Hack
+    family: Noto Sans Mono
+    # Style can be specified to pick a specific face.
+    style: Italic
+
+  # offset:
+  #   x: 1
+  #   y: 2
+
+env:
+  TERM: xterm-256color
+
+window:
+  # Window padding (changes require restart)
+
+  # Blank space added around the window in pixels. This padding is scaled
+  # by DPI and the specified value is always added at both opposing sides.
+  padding:
+    x: 10
+    y: 5
+  dynamic_padding: true
+
+# history (scrollback) I have this disabled.
+history: 0
+
+# opacity
+background_opacity: .85
+
+# Colors (Dracula)
+colors:
+  # Default colors
+  primary:
+    background: '#282a36'
+    foreground: '#f8f8f2'
+
+  # Normal colors
+  normal:
+    black:   '#000000'
+    red:     '#ff5555'
+    green:   '#50fa7b'
+    yellow:  '#f1fa8c'
+    blue:    '#caa9fa'
+    magenta: '#ff79c6'
+    cyan:    '#8be9fd'
+    white:   '#bfbfbf'
+
+  # Bright colors
+  bright:
+    black:   '#575b70'
+    red:     '#ff6e67'
+    green:   '#5af78e'
+    yellow:  '#f4f99d'
+    blue:    '#caa9fa'
+    magenta: '#ff92d0'
+    cyan:    '#9aedfe'
+    white:   '#e6e6e6'
