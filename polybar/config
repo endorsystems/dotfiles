@@ -234,8 +234,8 @@ format-volume = <ramp-volume>  <label-volume>
 label-volume = %percentage%%
 label-volume-foreground = ${root.foreground}
 
-label-muted = ﱝ mute 
-label-muted-foreground = #666
+label-muted = ﱝ  
+label-muted-foreground = #ff5555
 
 ramp-volume-0 = 奄 
 ramp-volume-1 = 奔 
