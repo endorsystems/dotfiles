@@ -19,15 +19,16 @@
     separator_height = 2
     padding = 10
     horizontal_padding = 10
-    separator_color = "nord3"
+    separator_color = "#44475a"
     startup_notification = false
     # https://github.com/knopwob/dunst/issues/26#issuecomment-36159395
     icon_position = left
     #icon_path = /usr/share/icons/Papirus-Dark/16x16/devices/
     frame_width = 2
-    frame_color = "#d79921"
+    frame_color = "#44475a"
     max_icon_size=64
     show_indicators = false
+    corner_radius = 5
 
 [shortcuts]
     close = ctrl+space
@@ -37,13 +38,13 @@
 
 [base16_low]
     msg_urgency = low
-    background = "#458588"
-    foreground = "#282828"
+    background = "#282a36"
+    foreground = "#e5e9f0"
 
 [base16_normal]
     msg_urgency = normal
-    background = "#d79921"
-    foreground = "#282828"
+    background = "#282a36"
+    foreground = "#e5e9f0"
 
 [base16_critical]
     msg_urgency = critical
