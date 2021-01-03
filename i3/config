@@ -212,3 +212,6 @@ exec_always picom
 
 # lock
 bindsym $mod+x exec betterlockscreen -l blur 
+
+# bluetooth/blueman
+exec_always blueman-applet
