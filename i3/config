@@ -220,7 +220,8 @@ exec_always feh --bg-scale ~/.backgrounds/galaxy.png
 exec_always picom
 
 # lock
-bindsym $mod+x exec betterlockscreen -l blur 
+bindsym $mod+x exec bash ~/.scripts/lock.sh
 
 # bluetooth/blueman
 exec_always blueman-applet
+
