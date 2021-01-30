@@ -1,7 +1,7 @@
 /*Dracula theme based on the Purple official rofi theme*/
 
 * {
-    font: "SF Pro Rounded 10";
+    font: "Fira Sans 10";
     foreground: #f8f8f2;
     background-color: #282a36;
     active-background: #6272a4;
@@ -120,3 +120,4 @@
     margin:     0px 0.3em 0em 0em ;
     text-color: @foreground;
 }
+#element-icon { size: 40px ;}
