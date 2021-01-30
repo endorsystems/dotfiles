@@ -190,9 +190,9 @@ client.background       #F8F8F2
 assign [class="^Rocket.Chat$"] 10
 assign [class="^Messenger$"] 10
 assign [class="^Microsoft Teams$"] 10
-assign [class="^firefox$"] 2
-assign [class="^org.remmina.Remmina$"] 4
-assign [class="^code-oss$"] 3
+#assign [class="^firefox$"] 2
+#assign [class="^org.remmina.Remmina$"] 4
+#assign [class="^code-oss$"] 3
 
 # polybar
 exec_always ~/.scripts/polybar.sh
