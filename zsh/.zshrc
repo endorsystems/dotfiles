@@ -111,3 +111,4 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias ls="ls -alh --color=auto"
+export PATH="$HOME/.local/bin:$PATH"
