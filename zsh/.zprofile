@@ -1,4 +1,4 @@
-# If running from tty1 start sway
-# if [ "$(tty)" = "/dev/tty1" ]; then
-# 	exec i3
-# fi
+# If running from tty1 start i3
+if [[ -z "$DISPLAY" ]] && [[ $(tty) = /dev/tty1 ]]; then
+	exec i3
+fi
