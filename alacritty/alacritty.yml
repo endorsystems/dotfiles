@@ -2,7 +2,7 @@
 # Font configuration (changes require restart)
 font:
   # The size to use.
-  size: 9
+  size: 8
   # The normal (roman) font face to use.
   normal:
     #family: Hack
